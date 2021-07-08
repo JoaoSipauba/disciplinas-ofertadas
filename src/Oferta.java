@@ -1,5 +1,5 @@
 public class Oferta {
-    private int ano;
-    private int semestre;
-    private int turma;
+    protected int ano;
+    protected int semestre;
+    protected int turma;
 }

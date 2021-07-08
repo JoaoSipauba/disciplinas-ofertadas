@@ -1,5 +1,5 @@
 public abstract class Presencial extends Oferta {
-    private String diaSemana;
-    private int hora;
-    private int duracao;
+    protected String diaSemana;
+    protected int hora;
+    protected int duracao;
 }
