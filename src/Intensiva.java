@@ -8,5 +8,6 @@ public class Intensiva extends Presencial {
         this.turma = turma;
         this.dataInic = dataInic;
         this.dataFim = dataFim;
+        this.modalidade = "I";
     }
 }

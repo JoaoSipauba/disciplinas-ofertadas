@@ -7,5 +7,7 @@ public class Semestral extends Presencial{
         this.diaSemana = diaSemana;
         this.hora = hora;
         this.duracao = duracao;
+        this.modalidade = "S";
     }
+
 }

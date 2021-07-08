@@ -6,5 +6,6 @@ public class Distancia extends Oferta{
         this.semestre = semestre;
         this.turma = turma;
         this.URL = URL;
+        this.modalidade = "D";
     }
 }
