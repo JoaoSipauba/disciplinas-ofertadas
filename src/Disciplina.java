@@ -11,7 +11,13 @@ public class Disciplina {
     }
 
     public void AdicionarOferta(Oferta oferta){
-        this.ofertas.add(oferta);
+        if (oferta instanceof Presencial){
+            if (((Presencial) oferta).getSala() != null){
+                this.ofertas.add(oferta);
+            }else System.out.println("Uma disciplina presencial precisa ter sala!");
+        }else if (((Distancia) oferta).getURL() != null){
+            this.ofertas.add(oferta);
+        }else System.out.println("Uma disciplina a distancia precisa de URL!");
     }
 
     public void RemoverOferta(Oferta oferta){
