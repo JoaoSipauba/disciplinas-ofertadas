@@ -7,9 +7,10 @@ public class App {
         Sala sala1 = new Sala("01", 40);
         oferta2.alocarSala(sala1);
         oferta3.alocarSala(sala1);
-        mtm.AdicionarOferta(oferta1);
-        mtm.AdicionarOferta(oferta2);
-        mtm.AdicionarOferta(oferta3);
+        mtm.adicionarOferta(oferta1);
+        mtm.adicionarOferta(oferta2);
+        mtm.adicionarOferta(oferta3);
+        mtm.removerOferta(oferta2);
         mtm.mostrarDados();
     }
 }

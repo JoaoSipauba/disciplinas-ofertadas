@@ -10,7 +10,7 @@ public class Disciplina {
         this.nome = nome;
     }
 
-    public void AdicionarOferta(Oferta oferta){
+    public void adicionarOferta(Oferta oferta){
         if (oferta instanceof Presencial){
             if (((Presencial) oferta).getSala() != null){
                 this.ofertas.add(oferta);
@@ -20,7 +20,7 @@ public class Disciplina {
         }else System.out.println("Uma disciplina a distancia precisa de URL!");
     }
 
-    public void RemoverOferta(Oferta oferta){
+    public void removerOferta(Oferta oferta){
         this.ofertas.remove(ofertas.indexOf(oferta));
     };
 
